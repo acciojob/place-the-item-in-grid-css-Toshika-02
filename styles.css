@@ -4,13 +4,31 @@
 	display: grid;
 	width: 200px;
 	height: 200px;
-	grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 1fr);  
-	gap: 10px;
 }
 
 .item{
 	border: 1px solid #000;
 	padding: 10px;
 	text-align: center;
+
+}
+
+.item-1 {
+  background-color: red;
+  color: white;
+}
+
+.item-2 {
+  background-color: blue;
+  color: white;
+}
+
+.item-3 {
+  background-color: green;
+  color: white;
+}
+
+.item-4 {
+  background-color: yellow;
+  color: black;
 }
